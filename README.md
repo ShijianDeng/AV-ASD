@@ -39,3 +39,24 @@ Then you can run the command to extract video and audio clips:
 ```
 python scripts/data_preparation/extract_clips.py
 ```
+
+### Optional - Download Extracted Clips from Hugging Face
+
+Make sure Git LFS is installed:
+<details>
+<summary>Show more</summary>
+
+```
+sudo apt-get install git-lfs
+```
+or if you don't have sudo:
+```
+conda install git-lfs
+```
+</details>
+
+Then run:
+```
+git lfs install
+git clone https://huggingface.co/datasets/ShijianDeng/AV-ASD
+```
